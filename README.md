@@ -1,70 +1,51 @@
 # Phase 1 Project Template - Minimum Viable Product (MVP)
 
-![blueprint](images/blueprint.png)
+![director shot](.images/director_shot.jpeg)
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+**Author**: Rachel Fein
+ 
 
-## Repository Contents
+## Overview
+ This project analysis movie databases to give Microsoft recommendations on a few key characteristics the Movie should have to help it be sucessful. Descriptive analysis was done on movie runtime, release month, and budget in relationship to the movies' success based off of net profit. 
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
 
-- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
-- `data` folder: A folder for the data you reference with your code
-- `images` folder: A folder for the images you reference in your files 
-- `.gitignore`: A hidden file that tells git to not track certain files and folders
+## Business Problem
 
-## Instructions For Using This Repository
+Microsoft has decided to enter the movie industry and wants to find out what type of movie will do best. Investigating the different characteristic of movies that have been released in the past will help give insight and advice to Microsoft on what key characteristics their movie should have to be sucessful.
 
-### Fork This Repository
 
-**For a group project**, have only one team member do these steps:
+## Data
 
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
+The data for this analysis is from IMBd and The Numbers (TN), two repulable online movie database websites.  The IMDb data set that was used consited of the columns: `release date`, `movie`, `production_budget`, `domestic_gross`, `worldwide_gross`. The TN dataframe that was used consisted of the columns: `primary_title`, `original_title`, `start_year`, `runtime_minutes`, `genres`. These two datasets were joined on `movie` and `primary_title`. 
 
-3. Use `git clone` to clone your fork of this repo to your local computer
+## Methods
 
-4. **For a group project**, add team members as collaborators to your fork of this repo
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
-   - Add your project team members as collaborators & send them the repo GitHub URL
+This project used descriptive analysis, which included comparing specific data to find trends. The methods of analysis helped pinpoint common trends among the most sucessful movies.
 
-### Work In Your Fork Of This Repository
+## Results
 
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
+The analysis concluded that runtime, release month, and production budget all impact the sucess of a movie. 
 
-### Use The Slide Template
+## Conclusions
 
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-3. **For a group project**, click the "Share" button and add your teammates as editors
+This analysis has lead to three recommendations: 
+- The movie should last approximently 110 to 120 minutes
+- The movie should be released in between May and June
+- There is a positive linear regression with production budget and net profits amoung the top movies and it is expect the higher budget the higher the net profit will be. 
 
-### Tidy Up Your Project
+## Next Steps
 
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - This README file: `README.md`
-   - Any unused data files in the `data` folder
-   - Any unused images in the `images` folder
+The analysis completed could be further improved by looking deeper into the production budget. Further analysis into budget will allow the client to get more detailed advice which will help guarantee their movie's success. For example, budget put towards special effects or marketing might have a greater impact than the budget spent on the talent/actors.
 
-### Submit Your Project
+Other analysis that would further answer the buisness problem would be data modeling of movie genres. An analysis on genre can show insight on if specific genres lead to higher net profit movies. 
 
-To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
+## For More Information
 
-***
+See the full analysis here: LINKKK or review this presentation: LINKKK
+
+## Repository Structure
+
+
 ### Notes
 
 - The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
