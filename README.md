@@ -1,6 +1,6 @@
 # Microsoft Movie Recommendation
 
-![director shot](.images/director_shot.jpeg)
+![director shot](./images/director_shot.jpeg)
 
 **Author**: Rachel Fein
  
@@ -28,7 +28,7 @@ The data investigation led to findings on common trends the most successful movi
 
 It is expected the higher the production budget the higher the net profit will be.
 
-![budget_vs_profit](./images/budget_vs_profit_50.png)
+![budget_vs_profit](./images/budget_vs_profit_50.png, height="48" width="48")
 
 Most successful movies are released around June.
 
@@ -37,8 +37,6 @@ Most successful movies are released around June.
 The movie should last approximately 117 to 119 minutes.
 
 ![runtime_displot](./images/runtime_displot.png)
-
-
 
 
 ## Conclusions
@@ -56,14 +54,14 @@ Other analysis that could been completed that would have further answer the busi
 
 ## For More Information
 
-See the full analysis here: [Jupyter Notebook](./Microsoft-Movie-Recommendations.ipynb) or review this presentation: [presentation](./DS_Project_Presentation.pdf).
+See the full analysis here: [Jupyter Notebook](./Microsoft-Movie-Recommendations.ipynb) or review the presentation: [presentation](./Microsoft_Movie_Presentation.pdf).
 
 ## Repository Structure
 
 ```
 ├── data
 ├── images
-├── README.md
-├── Movie_Reccomendation_Presentation.pdf
-└── Movie_Reccomendation_Analysis.ipynb
+├── Microsoft-Movie-Recommendations.ipynb
+├── Microsoft_Movie_Presentation.pdf
+└── README.md
 ```
