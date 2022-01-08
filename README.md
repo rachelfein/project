@@ -1,7 +1,7 @@
 
 # Microsoft Movie Recommendation
 
-![director shot](./images/director_shot.jpeg)
+![director shot](./images/director_shot.jpg)
 
 **Author**: Rachel Fein
  
