@@ -1,7 +1,8 @@
 
 # Microsoft Movie Recommendation
 
-![director shot](./images/director_shot.jpg)
+![director shot](/images/director_shot.jpg)
+
 
 **Author**: Rachel Fein
  
@@ -62,7 +63,7 @@ See the full analysis here: [Jupyter Notebook](./Microsoft-Movie-Recommendations
 ```
 ├── data
 ├── images
-├── Microsoft-Movie-Recommendations.ipynb
+├── Microsoft_Movie_Analysis.ipynb
 ├── Microsoft_Movie_Presentation.pdf
 └── README.md
 ```
