@@ -1,5 +1,5 @@
 
-# Microsoft Movie Recommendation
+# Microsoft Movie Analysis
 
 ![director shot](/images/director_shot.jpg)
 
