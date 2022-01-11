@@ -8,7 +8,7 @@
  
 
 ## Overview
-This analysis and data modeling was performed with the intent to give recommendations to Microsoft on basic key characteristics their new movie should have to be successful. Success in this analysis is based on net profit (production budget - gross worldwide profit). The investigation used descriptive analysis and dove into the runtime, release month, and production budget of the most successful movies of all time.  
+This analysis and data modeling was performed with the intent to give recommendations to Microsoft on basic key characteristics their new movie should have to be successful. Success in this analysis is based on net profit (production budget - gross worldwide profit). The investigation used descriptive analysis and dove into the runtime, release month, and production budget.  
 
 ## Business Problem
 
@@ -20,23 +20,23 @@ The data for this analysis is from IMDb and The Numbers (TN), two reputable onli
 
 ## Methods
 
-This project used descriptive analysis, which included comparing specific data to find trends among the top net profiting movies. The IMDb & TN data was normalized, adjusted for inflation, merged with each other, and cleaned of unnecessary columns to prepare for data modeling. 
+This project used descriptive analysis, which included comparing specific data to find trends. The IMDb & TN data was normalized, adjusted for inflation, merged with each other, and cleaned of unnecessary columns to prepare for data modeling. 
 
-Data Modeling was performed with displots, regplots, and a styled table to visually show where the recommendations on runtime, release month, and budget comes from. The methods of analysis helped pinpoint common trends among the most successful movies.
+Data Modeling was performed with displots, regplots, and a styled table to visually show where the recommendations on runtime, release month, and budget comes from. The methods of analysis helped pinpoint common trends.
 
 ## Results
 
-The data investigation led to findings on common trends the most successful movies have. Pinpointing these trends can help Microsoft make educated decisions on their movie's characteristics: runtime, release month, and budget. The recommendations were ultimately found by interpreting the median values for each specific characteristic for the top 50 movies.
+The data investigation led to findings on common trends the most successful movies have and where movies with higher profits are in the data. Pinpointing these trends can help Microsoft make educated decisions on their movie's characteristics: runtime, release month, and budget. The recommendations were ultimately found by interpreting the median values for each specific characteristic in comparison with net profit.
 
 It is expected the higher the production budget the higher the net profit will be.
 
-![budget_vs_profit](./images/budget_vs_profit_50.png)
+![budget_vs_profit](./images/budget_vs_profit_all.png)
 
-Most successful movies are released around June.
+The highest net movies are released in May.
 
-![release_month](./images/release_month_top_100.png)
+![release_month](./images/release_month.png)
 
-The movie should last approximately 117 to 119 minutes.
+The movie should last approximately 118.
 
 ![runtime_displot](./images/runtime_displot.png)
 
@@ -44,9 +44,9 @@ The movie should last approximately 117 to 119 minutes.
 ## Conclusions
 
 This analysis used net profit as the measurement of success for a movie. After evaluating net profit in comparison to runtime, release month, and runtime this analysis has led to three recommendations: 
-- The movie should last approximately 117 to 119 minutes
-- The movie should be released in June
-- It is expected the higher the production budget the higher the net profit will be. I recommend Microsoft spend around $188,000,000 which is the median production budget of the top 50 movies. 
+- The movie should last approximately 118 minutes
+- The movie should be released in May
+- It is expected the higher the production budget the higher the net profit will be.  
 
 ## Next Steps
 
@@ -64,7 +64,7 @@ See the full analysis here: [Jupyter Notebook](./Microsoft-Movie-Recommendations
 ├── data
 ├── images
 ├── Microsoft_Movie_Analysis.ipynb
-├── Microsoft_Movie_Presentation.pdf
+├── Project_Presentation.pdf
 └── README.md
 ```
 
